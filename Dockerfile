@@ -3,6 +3,7 @@ FROM ubuntu:latest
 
 WORKDIR /scores
 ENV SSDIR=/scores/samples
+ENV SADIR=/scores/analysis
 
 ARG CACHEBUST=1
 
